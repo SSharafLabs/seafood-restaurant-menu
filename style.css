@@ -1,0 +1,97 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+body, h2{
+    margin: 0;
+}
+
+#gallery{
+    background-color: aquamarine;
+}
+
+.gallery-item{
+    background-color: bisque;
+    width: 25%;
+    float: left;
+}
+
+.gallery-item img{
+    width: 100%;
+    
+}
+
+
+
+
+#Menu{
+    background-color: rgb(255,228,196);
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+
+
+#Menu h2{
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(0, 0, 255);
+}
+
+
+#Menu span{
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(39, 78, 186);
+    text-transform: uppercase;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.menu-item{
+    background-color: bisque;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.menu-item h3{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(39, 78, 186);
+    text-transform: uppercase;
+}
+
+
+.menu-item p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(31, 53, 113);
+    text-transform: uppercase;
+}
+
+#Menu .menu-item span{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(234, 42, 61);
+}
+
+
+
+.clr-fix{
+    clear: both;
+}
